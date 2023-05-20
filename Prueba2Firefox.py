@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from webdriver_manager.firefox import GeckoDriverManager
-from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.firefox.options import Options
 import time
 chrome_options = Options()
 chrome_options.add_argument("--headless")
